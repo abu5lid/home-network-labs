@@ -4,7 +4,7 @@
 
 I tested deauthentication attacks and LAN-side man-in-the-middle techniques against my own home Wi-Fi network, which uses WPA3-SAE. The key outcome: over-the-air deauthentication was **not effective** against WPA3-SAE with Protected Management Frames (PMF) required, while the LAN-side ARP-spoofing MITM succeeded. The lab also produced a personal correction: my first interpretation of the deauth results was wrong, and packet analysis corrected it.
 
-Scope and authorization: all networks and devices tested are my own property. Testing was performed from a Kali Linux laptop with an Alfa AWUS036ACM adapter in monitor mode.
+Scope and authorization: all networks and devices tested are my own property. Testing was performed from a Kali Linux laptop with an Alfa AWUS036ACM adapter in monitor mode. Network identifiers (SSIDs, BSSIDs, MAC addresses, and IP addresses) are redacted from this write-up.
 
 ## Reconnaissance
 
